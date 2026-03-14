@@ -68,7 +68,6 @@ def imprimir_lista(lista):
 
 def menu():
     while True:
-        print("simulador de vida")
         print("1. crear persona")
         print("2. crear mascota")
         print("3. crear vehiculo")
@@ -76,13 +75,11 @@ def menu():
         print("5. imprimir mascotas")
         print("6. imprimir vehiculos")
         print("7. imprimir todas las entidades")
-        print("8. salir")
+
+       print("\npresione 'finalizar' si desea salir")
 
         print("seleccione una opcion:")
         opcion = input().strip()
-
-        if opcion == "8":
-            break
 
         if not opcion.isdigit():
             print("ingrese un numero valido\n")

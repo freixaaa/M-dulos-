@@ -76,7 +76,7 @@ def menu():
         print("6. imprimir vehiculos")
         print("7. imprimir todas las entidades")
 
-       print("\npresione 'finalizar' si desea salir")
+        print("\npresione 'finalizar' si desea salir")
 
         print("seleccione una opcion:")
         opcion = input().strip()
